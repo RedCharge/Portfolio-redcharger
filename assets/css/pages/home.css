@@ -2201,3 +2201,20 @@ textarea.contact-form-control {
   border-top: 1px solid rgba(8, 8, 8, 0.1);
   border-bottom: 1px solid rgba(8, 8, 8, 0.1);
 }
+/* Quick header responsive fix */
+@media (max-width: 768px) {
+  .offcanvas-toggle {
+    padding: 16px 20px !important;
+  }
+  .contact-link {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+  .contact-link svg {
+    width: 18px;
+    height: 18px;
+  }
+  .header-inner img {
+    max-width: 100px;
+  }
+}
